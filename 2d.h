@@ -1,8 +1,12 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
-class twod
+class twod:public motion
 {
-  climb()
-  {}
+   climb()
+  {
+    cout<<"i am climbing"<<endl;
+    status=2;
+    bool a=1;
+  }
 };
