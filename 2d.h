@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
-class twod:public motion
+class 2d:public motion
 {
    climb()
   {

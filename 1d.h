@@ -1,9 +1,9 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
-class oned:public motion
+class 1d:public motion
 {
-     walk()
+    walk()
   {
     cout<<"i am walking"<<endl;
     enum status=1;
